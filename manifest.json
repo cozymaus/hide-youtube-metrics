@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "Hide YouTube Metrics",
+  "version": "1.7",
+
+  "description": "Hides all metrics on YouTube.com including likes, dislikes, views, subscribers, and more.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["hideyoutubemetrics.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+  	"browser_style": true,
+  	"default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/border-48.png"
+    }
+  }
+
+}

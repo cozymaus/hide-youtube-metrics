@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+  <script src="//static.tumblr.com/ihhnoee/12Cotb0p2/jquery.style-my-tooltips.js"></script>
+	<link rel="stylesheet" href="popup.css"/>
+
+	<style>
+		
+.popup {
+	width: 300px;
+	background: white;
+	padding: 20px;
+}
+
+.popup p, .popup h1 {
+	color: black;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FF0000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #FF0000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.hide {
+	visibility: hidden;
+	display: none;
+}
+
+</style>
+
+</head>
+
+
+<body>
+	<div class="popup">
+
+		<h1>Hide YouTube Metrics</h1>
+		<p>Hide all metrics on YouTube.</p>
+		
+
+<!--
+		<button id="hide">Hide</button>
+		<button id="show">Show</button>
+
+<label class="switch">
+			<input type="checkbox" checked>
+			<span class="slider round"></span>
+		</label>-->
+
+
+		<p>This add-on was made by <a href="https://lizlorena.com">Liz Lorena Berberena</a>. For more info click <a href="https://addons.mozilla.org/en-US/firefox/addon/hide-youtube-metrics/">here</a>.</p>
+	</div>
+	<script src="popup.js"></script>
+	<script src="hideyoutubemetrics.js"></script>
+</body>
+
+</html>
