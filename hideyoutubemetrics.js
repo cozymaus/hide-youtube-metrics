@@ -29,9 +29,10 @@ style.innerHTML =
 'span.yt-subscription-button-subscriber-count-branded-horizontal, ' +
 'a.secondary-header-action span.nav-text, ' +
 'ul.yt-lockup-meta-info li:nth-child(1), ' +
-'div#notification-count,' +
+'div#notification-count, ' +
+'#owner-sub-count.ytd-video-owner-renderer ' +
 
-/*mobile*/
+/*mobile
 'div.subhead span.text-info.small-text:nth-child(2), ' +
 'div.subscribe-button-count.secondary-text, ' +
 'div.compact-media-item-stats.small-text:nth-child(1), ' +
@@ -44,7 +45,7 @@ style.innerHTML =
 'div.compact-media-item-byline.small-text, ' +
 'ytm-channel-about-metadata-renderer.item div p:nth-child(1), ' +
 'ytm-channel-about-metadata-renderer.item div p:nth-child(3), ' +
-'span.comment-count ' +
+'span.comment-count ' +*/
 '{' + 
 'visibility: hidden;' + 
 'display: none;' +
@@ -53,4 +54,3 @@ style.innerHTML =
 var ref = document.querySelector('script');
 
 ref.parentNode.insertBefore(style, ref);
-
