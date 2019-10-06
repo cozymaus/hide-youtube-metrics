@@ -1,7 +1,7 @@
 /*
 Extension by: 
 Liz Lorena Berberena 
-@SmugCroc
+@LizLorenadotcom on Twitter
 https://byliz.github.io
 */
 var style = document.createElement('style');
