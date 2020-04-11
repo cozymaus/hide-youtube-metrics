@@ -1,8 +1,8 @@
 /*
 Extension by: 
 Liz Lorena Berberena 
-@LizLorenadotcom on Twitter
-https://byliz.github.io
+@cozymaus on Twitter
+https://cozymaus.github.io
 */
 var style = document.createElement('style');
 
@@ -30,7 +30,8 @@ style.innerHTML =
 'a.secondary-header-action span.nav-text, ' +
 'ul.yt-lockup-meta-info li:nth-child(1), ' +
 'div#notification-count, ' +
-'#owner-sub-count.ytd-video-owner-renderer ' +
+'#owner-sub-count.ytd-video-owner-renderer, ' +
+'#owner-sub-count ' +
 
 /*mobile
 'div.subhead span.text-info.small-text:nth-child(2), ' +
