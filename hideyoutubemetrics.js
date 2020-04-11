@@ -46,7 +46,8 @@ style.innerHTML =
 'div.compact-media-item-byline.small-text, ' +
 'ytm-channel-about-metadata-renderer.item div p:nth-child(1), ' +
 'ytm-channel-about-metadata-renderer.item div p:nth-child(3), ' +
-'span.comment-count ' +*/
+'span.comment-count, ' +
+'.short-view-count.style-scope.yt-view-count-renderer ' +*/
 '{' + 
 'visibility: hidden;' + 
 'display: none;' +
