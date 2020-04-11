@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Hide YouTube Metrics",
-  "version": "2.1",
+  "version": "2.2",
 
   "description": "Hides all metrics on YouTube.com including likes, dislikes, views, subscribers, and more.",
 
