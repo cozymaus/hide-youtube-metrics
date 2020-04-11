@@ -31,7 +31,8 @@ style.innerHTML =
 'ul.yt-lockup-meta-info li:nth-child(1), ' +
 'div#notification-count, ' +
 '#owner-sub-count.ytd-video-owner-renderer, ' +
-'#owner-sub-count ' +
+'#owner-sub-count, ' +
+'.short-view-count.style-scope.yt-view-count-renderer ' +
 
 /*mobile
 'div.subhead span.text-info.small-text:nth-child(2), ' +
