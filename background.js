@@ -1,8 +1,8 @@
 /*
 Extension by: 
 Liz Lorena Berberena 
-@LizLorenadotcom on Twitter
-https://byliz.github.io
+@cozymaus on Twitter
+https://cozymaus.github.io
 */
 
 function openPage() {
