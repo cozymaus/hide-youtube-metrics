@@ -1,8 +1,7 @@
 /*
 Extension by: 
 Liz Lorena Berberena 
-@cozymaus on Twitter
-https://cozymaus.github.io
+https://lizlorena.com
 */
 
 document.addEventListener("click", function(e) {
